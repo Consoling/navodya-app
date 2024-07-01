@@ -25,15 +25,15 @@ const Events = (props: Props) => {
           </h1>
           <div className=" flex flex-col sm:flex-row sm:justify-center">
 
-            <button className="flex flex-col md:bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 mt-6 sm:mt-0 sm:mr-2 sm:mb-0 ">
-              Host Event
+            <button className="flex flex-col bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 mt-6 sm:mt-0 sm:mr-2 sm:mb-0 ">
+              <a href="/host-event" className="text-center w-full">Host Event</a>
 
-            <button className="bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 hidden sm:block">
-              <a href="/host-event">Host Event</a>
+              {/* <button className="bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 hidden sm:block">
+              <a href="/host-event">Host Event</a> */}
 
             </button>
 
-            <button className="flex flex-col md:bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 ">
+            <button className="flex flex-col bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 ">
               Check Upcoming Events
             </button>
           </div>
